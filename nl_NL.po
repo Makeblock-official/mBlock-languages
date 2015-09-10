@@ -18,7 +18,7 @@ msgid "%m.mathOp of %n"
 msgstr "%m.mathOp %n"
 
 msgid "%m.sensor sensor value"
-msgstr "%m.sensor Sensor Waarde"
+msgstr "%m.sensor sensor waarde"
 
 msgid "%n mod %n"
 msgstr "%n mod %n"
@@ -27,14 +27,14 @@ msgid "add %s to %m.list"
 msgstr "voeg %s toe aan %m.list"
 
 msgid "answer"
-msgstr "Antwoord"
+msgstr "antwoord"
 
 msgid "ask %s and wait"
 msgstr "vraag %s en wacht"
 
 # "backdrop" in Scratch 2.0 is similar to "background" in Scratch 1.4
 msgid "backdrop #"
-msgstr "Achtergrond #"
+msgstr "achtergrond #"
 
 msgid "Hello!"
 msgstr "Hallo！"
@@ -43,10 +43,10 @@ msgid "Hmm..."
 msgstr "Hmm..."
 
 msgid "broadcast %m.broadcast"
-msgstr "Stuur %m.broadcast aan alles"
+msgstr "stuur %m.broadcast aan alles"
 
 msgid "broadcast %m.broadcast and wait"
-msgstr "Stuur %m.broadcast aan alles en wacht"
+msgstr "stuur %m.broadcast aan alles en wacht"
 
 msgid "change %m.effect effect by %n"
 msgstr "wijzig %m.effect effect met %n"
@@ -103,10 +103,10 @@ msgid "Data&Blocks"
 msgstr "Data&Blokken"
 
 msgid "days since 2000"
-msgstr "Dagen sinds 2000"
+msgstr "dagen sinds 2000"
 
 msgid "define"
-msgstr "Definiëren"
+msgstr "definieer"
 
 msgid "delete %d.listDeleteItem of %m.list"
 msgstr "verwijder %d.listDeleteItem uit %m.list"
@@ -122,6 +122,15 @@ msgstr "afstand"
 
 msgid "distance to %m.spriteOrMouse"
 msgstr "afstand tot %m.spriteOrMouse"
+
+msgid "random horizontal point"
+msgstr "willekeurig horizontaal punt"
+
+msgid "random vertical point"
+msgstr "willekeurig verticaal punt"
+
+msgid "random stage point"
+msgstr "willekeurig podium punt"
 
 msgid "else"
 msgstr "anders"
@@ -181,7 +190,7 @@ msgid "length of %s"
 msgstr "lengte van %s"
 
 msgid "letter %n of %s"
-msgstr "Karakter %n van %s"
+msgstr "karakter %n van %s"
 
 msgid "Looks"
 msgstr "Uiterlijk"
@@ -685,7 +694,7 @@ msgid "Conga"
 msgstr "Conga"
 
 msgid "Connecting to Cloud data server..."
-msgstr "Verbinden met Cloud-data server..."
+msgstr "Aan het verbinden met Cloud-data server..."
 
 msgid "Convert to bitmap"
 msgstr "Converteer naar rasterafbeelding"
@@ -694,7 +703,7 @@ msgid "Convert to vector"
 msgstr "Converteer naar vector"
 
 msgid "Converting mp3..."
-msgstr "MP3 converteren..."
+msgstr "MP3 aan het converteren..."
 
 msgid "copy"
 msgstr "kopiëren"
@@ -709,7 +718,7 @@ msgid "Costume"
 msgstr "Kostuum"
 
 msgid "costume #"
-msgstr "Kostuumnummer"
+msgstr "kostuumnummer"
 
 msgid "Costume Library"
 msgstr "Kostuum bibliotheek"
@@ -798,6 +807,21 @@ msgstr "e ^"
 
 msgid "edge"
 msgstr "rand"
+
+msgid "top edge"
+msgstr "bovenste rand"
+
+msgid "top edge"
+msgstr "bovenste rand"
+
+msgid "right edge"
+msgstr "rechtse rand"
+
+msgid "left edge"
+msgstr "linkse rand"
+
+msgid "bottom edge"
+msgstr "onderste rand"
 
 msgid "edit"
 msgstr "bewerken"
@@ -1146,7 +1170,7 @@ msgid "Other"
 msgstr "Anders"
 
 msgid "other scripts in sprite"
-msgstr "anders scripts in sprite"
+msgstr "andere scripts in sprite"
 
 msgid "Outdoors"
 msgstr "Buiten"
@@ -1177,6 +1201,9 @@ msgstr "foto1"
 
 msgid "Piano"
 msgstr "Piano"
+
+msgid "Electric Piano"
+msgstr "Electrische Piano"
 
 msgid "Pick up color"
 msgstr "Kleurkiezer"
@@ -1637,8 +1664,23 @@ msgstr "Wisser dikte:"
 msgid "Line width:"
 msgstr "Lijn dikte:"
 
+msgid "mBot Program"
+msgstr "mBot Programma"
+
 msgid "set motor%d.motorPort speed %d.motorvalue"
 msgstr "wijzig motor %d.motorPort snelheid naar %d.motorvalue"
+
+msgid "run forward"
+msgstr "rij vooruit"
+
+msgid "run backward"
+msgstr "rij achteruit"
+
+msgid "turn left"
+msgstr "draai naar links"
+
+msgid "turn right"
+msgstr "draai naar rechts"
 
 msgid "set servo %d.servoPort %d.slot angle %d.servovalue"
 msgstr "wijzig servo %d.servoPort %d.slot hoek naar %d.servovalue"
@@ -1650,43 +1692,43 @@ msgid "set led %d.normalPort %d.index red%d.value green%d.value blue%d.value"
 msgstr "wijzig RGB-LED %d.normalPort %d.index Rood%d.value Groen%d.value Blauw%d.value"
 
 msgid "ultrasonic sensor %d.normalPort distance"
-msgstr "Ultrasonic sensor %d.normalPort afstand"
+msgstr "ultrasonische sensor %d.normalPort afstand"
 
 msgid "sound sensor %d.normalPort"
-msgstr "sound Sensor %d.normalPort"
+msgstr "geluidssensor %d.normalPort"
 
 msgid "light sensor %d.normalPort"
-msgstr "Light Sensor %d.normalPort"
+msgstr "lichtsensor %d.normalPort"
 
 msgid "set light sensor %d.normalPort led as %d.switch"
-msgstr "wijzig Light Sensor %d.normalPort LED naar %d.switch"
+msgstr "wijzig lichtsensor %d.normalPort LED naar %d.switch"
 
 msgid "line follower %d.normalPort"
-msgstr "Line Follower %d.normalPort"
+msgstr "lijn volger %d.normalPort"
 
 msgid "limit switch %d.normalPort%d.slot"
-msgstr "Limit Switch %d.normalPort%d.slot"
+msgstr "limiet schakelaar %d.normalPort%d.slot"
 
 msgid "potentiometer %d.normalPort"
-msgstr "Potentiometer %d.normalPort"
+msgstr "potentiometer %d.normalPort"
 
 msgid "3-axis gyro %d.GyroAxis angle"
 msgstr "3-Assige Gyro %d.GyroAxis hoek"
 
 msgid "infrared receiver %d.normalPort"
-msgstr "Infrared Receiver %d.normalPort"
+msgstr "infrared receiver %d.normalPort"
 
 msgid "pir motion sensor %d.normalPort"
-msgstr "PIR Motion Sensor %d.normalPort"
+msgstr "PIR motion sensor %d.normalPort"
 
 msgid "temperature %d.normalPort%d.slot °C"
-msgstr "Temperatuur %d.normalPort%d.slot °C"
+msgstr "temperatuur %d.normalPort%d.slot °C"
 
 msgid "joystick %d.normalPort %d.Axis"
-msgstr "Joystick %d.normalPort %d.Axis"
+msgstr "joystick %d.normalPort %d.Axis"
 
 msgid "set camera shutter %d.normalPort as %d.shutter"
-msgstr "stel Camera Shutter %d.normalPort in als %d.shutter"
+msgstr "stel camera shutter %d.normalPort in als %d.shutter"
 
 msgid "read digital pin %n"
 msgstr "lees digitale pin %n"
@@ -1728,13 +1770,13 @@ msgid "Zero"
 msgstr "Nul"
 
 msgid "Ultrasonic"
-msgstr "Ultrasonic"
+msgstr "Ultrasonisch"
 
 msgid "Light Sensor"
-msgstr "Light Sensor"
+msgstr "Lichtsensor"
 
 msgid "Sound Sensor"
-msgstr "Sound Sensor"
+msgstr "Geluidssensor"
 
 msgid "LED"
 msgstr "LED"
@@ -1743,10 +1785,10 @@ msgid "Joystick"
 msgstr "Joystick"
 
 msgid "Line Finder"
-msgstr "Line Finder"
+msgstr "Lijn-vinder"
 
 msgid "LimitSwitch"
-msgstr "Limit Switch"
+msgstr "Limiet Schakelaar"
 
 msgid "Potentiometer"
 msgstr "Potentiometer"
