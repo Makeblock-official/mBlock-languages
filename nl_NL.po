@@ -106,7 +106,7 @@ msgid "days since 2000"
 msgstr "Dagen sinds 2000"
 
 msgid "define"
-msgstr "Defineren"
+msgstr "Definiëren"
 
 msgid "delete %d.listDeleteItem of %m.list"
 msgstr "verwijder %d.listDeleteItem uit %m.list"
@@ -133,7 +133,7 @@ msgid "forever"
 msgstr "herhaal voor altijd"
 
 msgid "glide %n secs to x:%n y:%n"
-msgstr "glij in %n sec. naar x:%n y:%n"
+msgstr "glij in %n seconden naar x:%n y:%n"
 
 msgid "go back %n layers"
 msgstr "ga %n lagen terug"
@@ -214,8 +214,8 @@ msgstr "vorige achtergrond"
 msgid "next costume"
 msgstr "volgend kostuum"
 
-msgid "niet %b"
-msgstr "nicht %b"
+msgid "not %b"
+msgstr "niet %b"
 
 msgid "Operators"
 msgstr "Operatoren"
@@ -492,8 +492,8 @@ msgstr "Voeg label tekst toe:"
 msgid "Add number input:"
 msgstr "Voeg cijfer veld toe:"
 
-msgid "Voeg tekstveld toe:"
-msgstr "Textfeld:"
+msgid "Add text field:"
+msgstr "Voeg tekstveld toe:"
 
 msgid "All"
 msgstr "Alles"
@@ -529,19 +529,19 @@ msgid "Backdrop"
 msgstr "Achtergrond"
 
 msgid "backdrop"
-msgstr "Achtergrond"
+msgstr "achtergrond"
 
 msgid "Backdrop Library"
 msgstr "Achtergronden Bibliotheek"
 
 msgid "backdrop name"
-msgstr "Achtergrondnaam"
+msgstr "achtergrondnaam"
 
 msgid "backdrop1"
-msgstr "Achtergrond1"
+msgstr "achtergrond1"
 
 msgid "backdrops"
-msgstr "Achtergronden"
+msgstr "achtergronden"
 
 msgid "Backdrops"
 msgstr "Achtergronden"
@@ -559,7 +559,7 @@ msgid "Bassoon"
 msgstr "Fagot"
 
 msgid "Because you have a new Scratch account, any changes to cloud data won't be saved yet. Keep participating on the site you'll be able to use cloud data soon!"
-msgstr "Omdat je een nieuw Scratch account hebt worden wijzigingen in cloud data nog niet opgeslagen. Blijf meedoen op de site en je kunnen binnenkort cloud data gebruiken!"
+msgstr "Omdat je een nieuw Scratch account hebt, worden wijzigingen in cloud data nog niet opgeslagen. Blijf meedoen op de site en je kan binnenkort cloud data gebruiken!"
 
 msgid "Bitmap"
 msgstr "Rasterafbeelding"
@@ -643,7 +643,7 @@ msgid "Choose sprite from library"
 msgstr "Kies sprite uit bibliotheek"
 
 msgid "Circle"
-msgstr "Circel"
+msgstr "Cirkel"
 
 msgid "City"
 msgstr "Stad"
@@ -715,19 +715,19 @@ msgid "Costume Library"
 msgstr "Kostuum bibliotheek"
 
 msgid "costume name"
-msgstr "Kostuumnaam"
+msgstr "kostuumnaam"
 
 msgid "costume1"
-msgstr "Kostuum 1"
+msgstr "kostuum 1"
 
 msgid "costume2"
-msgstr "Kostuum 2"
+msgstr "kostuum 2"
 
 msgid "Costumes"
 msgstr "Kostuums"
 
 msgid "Costumes > 1"
-msgstr "Kostuum > 1"
+msgstr "Kostuums > 1"
 
 msgid "Costumes:"
 msgstr "Kostuums:"
@@ -918,7 +918,7 @@ msgstr "Mens"
 # 83%
 #, fuzzy
 msgid "import"
-msgstr "Importeer"
+msgstr "importeer"
 
 msgid "Import"
 msgstr "Importeer"
@@ -975,7 +975,7 @@ msgid "list"
 msgstr "lijst"
 
 msgid "List name"
-msgstr "lijstnaam"
+msgstr "Lijstnaam"
 
 msgid "ln"
 msgstr "ln"
@@ -1011,7 +1011,7 @@ msgid "Max"
 msgstr "Max"
 
 msgid "meow"
-msgstr "Miauw"
+msgstr "miauw"
 
 msgid "Message Name"
 msgstr "Bericht Naam"
@@ -1226,7 +1226,7 @@ msgid "Remix"
 msgstr "Remixen"
 
 msgid "Remixing..."
-msgstr "Remixen..."
+msgstr "Aan het remixen..."
 
 msgid "Rename"
 msgstr "Hernoemen"
@@ -1259,7 +1259,7 @@ msgid "Revert"
 msgstr "Terugdraaien"
 
 msgid "Reverting..."
-msgstr "Terugdraaien..."
+msgstr "Aan het terugdraaien..."
 
 msgid "right"
 msgstr "rechts"
@@ -1289,10 +1289,10 @@ msgid "Saved"
 msgstr "Opgeslagen"
 
 msgid "Saving changes..."
-msgstr "Wijzigingen opslaan..."
+msgstr "Wijzigingen aan het opslaan..."
 
 msgid "Saving..."
-msgstr "Opslaan..."
+msgstr "Aan het opslaan..."
 
 msgid "Saxophone"
 msgstr "Saxofoon"
@@ -1307,7 +1307,7 @@ msgid "Scripts:"
 msgstr "Scripts::"
 
 msgid "second"
-msgstr "seconden"
+msgstr "seconde"
 
 msgid "See project page"
 msgstr "Zie projectpagina"
@@ -1322,7 +1322,7 @@ msgid "Select and duplicate"
 msgstr "Selecteer en dupliceer"
 
 msgid "Send to back"
-msgstr "Stuur naar acthergrond"
+msgstr "Stuur naar achtergrond"
 
 msgid "Set costume center"
 msgstr "Stel kostuum middelpunt in"
@@ -1361,7 +1361,7 @@ msgid "Sign in"
 msgstr "Aanmelden"
 
 msgid "Sign in to save"
-msgstr "Meldt je aan om op te slaan"
+msgstr "Meld je aan om op te slaan"
 
 msgid "Sign out"
 msgstr "Afmelden"
@@ -1464,7 +1464,7 @@ msgid "Text"
 msgstr "Tekst"
 
 msgid "that way"
-msgstr ""
+msgstr "op die manier"
 
 #, fuzzy
 msgid "Theme"
@@ -1474,7 +1474,7 @@ msgid "Things"
 msgstr "Dingen"
 
 msgid "This project can detect who is using it, through the “username” block. To hide your identity, sign out before using the project."
-msgstr "Dit project kan detecteren wie het gebruikt door middel van het “gebruikersnaam” blok. Om je identiteit te verbergen dien je af te melden voordat je het project gebruikt."
+msgstr "Dit project kan detecteren wie het gebruikt door middel van het “gebruikersnaam” blok. Om je identiteit te verbergen, dien je af te melden voordat je het project gebruikt."
 
 msgid "This project uses Cloud data ‒ a feature that is available only to signed in users."
 msgstr "Dit project maakt gebruik van Cloud data, een mogelijkheid die alleen beschikbaar is voor aangemelde gebruikers."
@@ -1489,7 +1489,7 @@ msgid "this way"
 msgstr "op deze manier"
 
 msgid "Throw away all changes since opening this project?"
-msgstr "Alle wijziging weggooien sinds het project is geopend?"
+msgstr "Alle wijzigingen weggooien sinds het project is geopend?"
 
 msgid "timer"
 msgstr "timer"
@@ -1498,7 +1498,7 @@ msgid "Tips"
 msgstr "Tips"
 
 msgid "To delete a block definition, first remove all uses of the block."
-msgstr "Om de definitie van een blok te verwijderen dien je eerst alle gebruiken van het blok te verwijderen."
+msgstr "Om de definitie van een blok te verwijderen, dien je eerst alle gebruiken van het blok te verwijderen."
 
 msgid "Transportation"
 msgstr "Vervoer"
@@ -1533,7 +1533,7 @@ msgid "undo"
 msgstr "ongedaan maken"
 
 msgid "Undo Revert"
-msgstr "Ongedaan maken omkeren"
+msgstr "Omkeren ongedaan maken"
 
 msgid "Ungroup"
 msgstr "Groep opheffen"
@@ -1653,7 +1653,7 @@ msgid "ultrasonic sensor %d.normalPort distance"
 msgstr "Ultrasonic sensor %d.normalPort afstand"
 
 msgid "sound sensor %d.normalPort"
-msgstr "Sound Sensor %d.normalPort"
+msgstr "sound Sensor %d.normalPort"
 
 msgid "light sensor %d.normalPort"
 msgstr "Light Sensor %d.normalPort"
@@ -1905,7 +1905,7 @@ msgid "New Block"
 msgstr "Nieuw Blok"
 
 msgid "Updating"
-msgstr "Bijwerken"
+msgstr "Aan het bijwerken"
 
 msgid "Downloading"
 msgstr "Aan het downloaden"
@@ -1995,7 +1995,7 @@ msgstr "Y Knop ingedrukt?"
 #~ msgstr "altijd als %b"
 
 #~ msgid "if %b"
-#~ msgstr "waneer %b"
+#~ msgstr "wanneer %b"
 
 #~ msgid "motor direction %m.motorDirection"
 #~ msgstr "motor richting %m.motorDirection"
@@ -2081,7 +2081,7 @@ msgid "License"
 msgstr "Licentie"
 
 msgid "Acknowledgements"
-msgstr "Onbekende Firmware"
+msgstr "Met dank aan"
 
 msgid "Custom Connect"
 msgstr "Verbinden"
