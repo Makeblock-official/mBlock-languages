@@ -1,4 +1,4 @@
-# The language name as it will appear in the language menu
+﻿# The language name as it will appear in the language menu
 msgid "Language-Name"
 msgstr "Nederlands"
 
@@ -270,7 +270,7 @@ msgid "replace item %d.listItem of %m.list with %s"
 msgstr "vervang item %d.listItem van %m.list met %s"
 
 msgid "reset timer"
-msgstr "reset timer"
+msgstr "reset tijdklok"
 
 msgid "rest for %n beats"
 msgstr "wacht voor %n slagen"
@@ -1519,7 +1519,7 @@ msgid "Throw away all changes since opening this project?"
 msgstr "Alle wijzigingen weggooien sinds het project is geopend?"
 
 msgid "timer"
-msgstr "timer"
+msgstr "tijdklok"
 
 msgid "Tips"
 msgstr "Tips"
@@ -1667,6 +1667,9 @@ msgstr "Lijn dikte:"
 msgid "mBot Program"
 msgstr "mBot Programma"
 
+msgid "%m.direction at speed %d.motorvalue"
+msgstr "%m.direction met snelheid %d.motorvalue"
+
 msgid "set motor%d.motorPort speed %d.motorvalue"
 msgstr "wijzig motor %d.motorPort snelheid naar %d.motorvalue"
 
@@ -1682,35 +1685,66 @@ msgstr "draai naar links"
 msgid "turn right"
 msgstr "draai naar rechts"
 
-msgid "set servo %d.servoPort %d.slot angle %d.servovalue"
-msgstr "wijzig servo %d.servoPort %d.slot hoek naar %d.servovalue"
+msgid "led on board"
+msgstr "led op het bord"
 
-msgid "set 7-segments display%d.normalPort number %n"
-msgstr "wijzig 7-Segment Display %d.normalPort naar nummer %n"
+msgid "light sensor on board"
+msgstr "lichtsensor op het bord"
 
-msgid "set led %d.normalPort %d.index red%d.value green%d.value blue%d.value"
-msgstr "wijzig RGB-LED %d.normalPort %d.index Rood%d.value Groen%d.value Blauw%d.value"
+msgid "set servo %d.port %d.slot angle %d.servovalue"
+msgstr "wijzig servo %d.port %d.slot hoek naar %d.servovalue"
 
-msgid "ultrasonic sensor %d.normalPort distance"
-msgstr "ultrasonische sensor %d.normalPort afstand"
+msgid "set 7-segments display%d.port number %n"
+msgstr "wijzig 7-Segment Display %d.Port naar nummer %n"
 
-msgid "sound sensor %d.normalPort"
-msgstr "geluidssensor %d.normalPort"
+msgid "set led %d.lport %d.index red%d.value green%d.value blue%d.value"
+msgstr "wijzig LED %d.lPort %d.index rood%d.value groen%d.value blauw%d.value"
 
-msgid "light sensor %d.normalPort"
-msgstr "lichtsensor %d.normalPort"
+msgid "play tone on note %d.note"
+msgstr "speel toon op noot %d.note"
 
-msgid "set light sensor %d.normalPort led as %d.switch"
-msgstr "wijzig lichtsensor %d.normalPort LED naar %d.switch"
+msgid "stop tone"
+msgstr "stop toon"
 
-msgid "line follower %d.normalPort"
-msgstr "lijn volger %d.normalPort"
+msgid "show face %d.port x:%n y:%n characters:%s"
+msgstr "geef frontpanel %d.port x:%n y:%n karakters:%s weer"
 
-msgid "limit switch %d.normalPort%d.slot"
-msgstr "limiet schakelaar %d.normalPort%d.slot"
+#something is wrong with this one!
+msgid "show time %d.port hour:%n %s min:%n"
+msgstr "geef tijd %d.port uur:%n %s min:%n weer"
 
-msgid "potentiometer %d.normalPort"
-msgstr "potentiometer %d.normalPort"
+#!!missing show drawing!!
+
+
+msgid "ultrasonic sensor %d.port distance"
+msgstr "ultrasonische sensor %d.port afstand"
+
+msgid "sound sensor %d.aport"
+msgstr "geluidssensor %d.aport"
+
+msgid "light sensor %d.laport"
+msgstr "lichtsensor %d.laPort"
+
+msgid "set light sensor %d.aport led as %d.switch"
+msgstr "wijzig lichtsensor %d.aport LED naar %d.switch"
+
+msgid "line follower %d.port"
+msgstr "lijnvolger %d.port"
+
+msgid "limit switch %d.port %d.slot"
+msgstr "limiet schakelaar %d.port %d.slot"
+
+msgid "potentiometer %d.aport"
+msgstr "potentiometer %d.aport"
+
+msgid "ir remote %m.ircode pressed"
+msgstr "infrarood afstandsbediening %m.ircode ingedrukt"
+
+msgid "send mBot's message %s"
+msgstr "verstuur mBot's boodschap %s"
+
+msgid "mBot's message received"
+msgstr "mBot's boodschap ontvangen"
 
 msgid "3-axis gyro %d.GyroAxis angle"
 msgstr "3-Assige Gyro %d.GyroAxis hoek"
@@ -1718,17 +1752,17 @@ msgstr "3-Assige Gyro %d.GyroAxis hoek"
 msgid "infrared receiver %d.normalPort"
 msgstr "infrared receiver %d.normalPort"
 
-msgid "pir motion sensor %d.normalPort"
-msgstr "PIR motion sensor %d.normalPort"
+msgid "pir motion sensor %d.port"
+msgstr "PIR bewegingsdetector %d.port"
 
-msgid "temperature %d.normalPort%d.slot °C"
-msgstr "temperatuur %d.normalPort%d.slot °C"
+msgid "temperature %d.port %d.slot °C"
+msgstr "temperatuur %d.port %d.slot °C"
 
-msgid "joystick %d.normalPort %d.Axis"
-msgstr "joystick %d.normalPort %d.Axis"
+msgid "joystick %d.aport %d.Axis"
+msgstr "joystick %d.aport %d.Axis"
 
-msgid "set camera shutter %d.normalPort as %d.shutter"
-msgstr "stel camera shutter %d.normalPort in als %d.shutter"
+msgid "set camera shutter %d.port as %d.shutter"
+msgstr "stel camera shutter %d.port in als %d.shutter"
 
 msgid "read digital pin %n"
 msgstr "lees digitale pin %n"
@@ -1750,6 +1784,18 @@ msgstr "stel servo pin %n hoek in op %d.servovalue graden"
 
 msgid "play tone pin %n on note %d.notes beat %d.beats"
 msgstr "speel toon pin %n op noot %d.notes voor %d.beats tellen"
+
+msgid "when button %m.button_state"
+msgstr "wanneer knop %m.button_state"
+
+msgid "pressed"
+msgstr "ingedrukt"
+
+msgid "released"
+msgstr "losgelaten"
+
+msgid "button %m.button_state"
+msgstr "knop %m.button_state"
 
 msgid "Eighth"
 msgstr "Achtste"
@@ -2113,11 +2159,17 @@ msgstr "Arduino Stuurprogramma Installeren"
 msgid "Network"
 msgstr "Netwerk"
 
+msgid "2.4G Serial"
+msgstr "2.4G Serieel"
+
 msgid "Unknown Firmware"
 msgstr "Onbekende Firmware"
 
 msgid "Report a Bug"
 msgstr "Bug Rapporteren"
+
+msgid "Upload Bug"
+msgstr "Bug Uploaden"
 
 msgid "License"
 msgstr "Licentie"
@@ -2130,3 +2182,125 @@ msgstr "Verbinden"
 
 msgid "Refresh"
 msgstr "Vernieuwen"
+
+msgid "Reset Default Program"
+msgstr "Standaard Programma opnieuw instellen"
+
+#msgids copied from de_DE
+msgid "Disconnected"
+msgstr "Verbinding verbroken"
+
+msgid "Hide stage layout"
+msgstr "Verberg podium opmaak"
+
+msgid "manage_extentions"
+msgstr "beheer uitbreidingen"
+
+msgid "Face Panel"
+msgstr "Frontpaneel"
+
+msgid "Clear All"
+msgstr "Wis alles"
+
+msgid "Light All"
+msgstr "Verlicht alles"
+
+msgid "Add To Favourite"
+msgstr "Toevoegen aan Favorieten"
+
+msgid "Remove Emotion"
+msgstr "Verwijder Emotion"
+
+msgid "Complete"
+msgstr "volledig"
+
+msgid "Manage Extensions"
+msgstr "Beheer uitbreidingen"
+
+msgid "Add Extension"
+msgstr "Voeg uitbreiding toe"
+
+msgid "Remove Extension"
+msgstr "Verwijder Uitbreiding"
+
+msgid "file is not a valid extension zip!"
+msgstr "bestand is geen geldige uitbreidings-zip!"
+
+msgid "Want to delete?"
+msgstr "wil je het verwijderen?"
+
+msgid "Warning"
+msgstr "waarschuwing"
+
+msgid "Language"
+msgstr "Taal"
+
+msgid "Extensions"
+msgstr "Uitbreidingen"
+
+msgid "Boards"
+msgstr "Borden"
+
+msgid "Connecting Bluetooth"
+msgstr "Bluetooth aan het verbinden"
+
+msgid "Bluetooth Connected"
+msgstr "Bluetooth verbonden"
+
+msgid "Connecting Timeout"
+msgstr "Timeout tijdens het verbinden"
+
+msgid "Restore Extensions"
+msgstr "Uitbreidingen bijwerken"
+
+msgid "Extension Files Updated"
+msgstr "Uitbreidingsbestanden bijgewerkt"
+
+msgid "Modified"
+msgstr "Veranderd"
+
+msgid "Save Project As"
+msgstr "Sla Project op als"
+
+msgid "I know"
+msgstr "Ik weet het"
+
+msgid "Update Complete"
+msgstr "Bijwerkingen volledig"
+
+msgid "There is a newer version"
+msgstr "Er is een nieuwere versie"
+
+msgid "It's already the newest version"
+msgstr "Het is reeds de nieuwste versie"
+
+msgid "Download Now"
+msgstr "Nu downloaden"
+
+msgid "Download Later"
+msgstr "Later downloaden"
+
+msgid "Others"
+msgstr "Andere"
+
+msgid "Check Software Update"
+msgstr "Kijk na of er een Software bijwerking is"
+
+msgid "Check Assets Update"
+msgstr "Kijk na of er een bijwerkingen van de assets is"
+
+msgid "Clear Cache"
+msgstr "Cache wissen"
+
+#Arduino mode
+msgid "Back"
+msgstr "Terug"
+
+msgid "Upload to Arduino"
+msgstr "Naar Arduino uploaden"
+
+msgid "Edit with Arduino IDE"
+msgstr "Met Arduino IDE editeren"
+
+msgid "Send"
+msgstr "Verstuur"
