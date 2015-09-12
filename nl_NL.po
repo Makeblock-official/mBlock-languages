@@ -192,6 +192,9 @@ msgstr "lengte van %s"
 msgid "letter %n of %s"
 msgstr "karakter %n van %s"
 
+msgid "cast %n to string"
+msgstr "verander type van %n naar string"
+
 msgid "Looks"
 msgstr "Uiterlijk"
 
@@ -1709,11 +1712,11 @@ msgstr "stop toon"
 msgid "show face %d.port x:%n y:%n characters:%s"
 msgstr "geef frontpanel %d.port x:%n y:%n karakters:%s weer"
 
-#something is wrong with this one!
-msgid "show time %d.port hour:%n %s min:%n"
-msgstr "geef tijd %d.port uur:%n %s min:%n weer"
+msgid "show time %d.port hour:%n %m.points min:%n"
+msgstr "geef tijd weer %d.port uur:%n %m.points min:%n"
 
-#!!missing show drawing!!
+msgid "show drawing %d.port x:%n y:%n draw:%m.drawFace"
+msgstr "geef tekening weer %d.port x:%n y:%n teken:%m.drawFace"
 
 
 msgid "ultrasonic sensor %d.port distance"
@@ -1732,13 +1735,13 @@ msgid "line follower %d.port"
 msgstr "lijnvolger %d.port"
 
 msgid "limit switch %d.port %d.slot"
-msgstr "limiet schakelaar %d.port %d.slot"
+msgstr "limietschakelaar %d.port %d.slot"
 
 msgid "potentiometer %d.aport"
 msgstr "potentiometer %d.aport"
 
 msgid "ir remote %m.ircode pressed"
-msgstr "infrarood afstandsbediening %m.ircode ingedrukt"
+msgstr "toets %m.ircode van afstandsbediening ingedrukt"
 
 msgid "send mBot's message %s"
 msgstr "verstuur mBot's boodschap %s"
@@ -2203,7 +2206,7 @@ msgid "Clear All"
 msgstr "Wis alles"
 
 msgid "Light All"
-msgstr "Verlicht alles"
+msgstr "Selecteer alles"
 
 msgid "Add To Favourite"
 msgstr "Toevoegen aan Favorieten"
@@ -2212,7 +2215,7 @@ msgid "Remove Emotion"
 msgstr "Verwijder Emotion"
 
 msgid "Complete"
-msgstr "volledig"
+msgstr "Gereed"
 
 msgid "Manage Extensions"
 msgstr "Beheer uitbreidingen"
